@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+# Ignore node_modules in any subdirectory. The trailing slash ensures it only matches directories.
+node_modules/
+
+# Build output folder
+# Ignore build output in any subdirectory
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Environment variables - never commit these!
+.env
+.env.local
+.env.*.local
+
+# IDEs and editor-specific files
+.idea/
+.vscode/
+.DS_Store

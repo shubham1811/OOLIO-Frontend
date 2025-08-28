@@ -1,0 +1,58 @@
+{
+  "name": "oolio-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --port 8000",
+    "build": "webpack --mode production",
+    "analyze": "cross-env ANALYZE=true npm run build",
+    "build:dev": "webpack --mode development",
+    "lint": "eslint --config eslint.config.js './src/**/*.{ts,tsx}'",
+    "format": "prettier --write './src/**/*.{ts,tsx}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/material": "^7.2.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "dexie": "^4.2.0",
+    "dexie-react-hooks": "^4.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@eslint/js": "^9.31.0",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "babel-loader": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "prettier": "^3.6.2",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.8.3",
+    "webpack": "^5.100.2",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

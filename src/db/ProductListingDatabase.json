@@ -1,0 +1,47 @@
+[
+    {
+        "pk_key": 1,
+        "ProductName": "Classic Burger",
+        "ProductPrice": "$9.99",
+        "ProductType": "dinner",
+        "ProductImage": "https://example.com/images/burger.jpg",
+        "ShowInListing": true,
+        "FoodType": "non-veg"
+    },
+    {
+        "pk_key": 2,
+        "ProductName": "Margherita Pizza",
+        "ProductPrice": "$12.50",
+        "ProductType": "dinner",
+        "ProductImage": "https://example.com/images/pizza.jpg",
+        "ShowInListing": true,
+        "FoodType": "veg"
+    },
+    {
+        "pk_key": 3,
+        "ProductName": "Pancakes & Syrup",
+        "ProductPrice": "$7.00",
+        "ProductType": "breakfast",
+        "ProductImage": "https://example.com/images/pancakes.jpg",
+        "ShowInListing": true,
+        "FoodType": "veg"
+    },
+    {
+        "pk_key": 4,
+        "ProductName": "Crispy French Fries",
+        "ProductPrice": "$4.50",
+        "ProductType": "snacks",
+        "ProductImage": "https://example.com/images/fries.jpg",
+        "ShowInListing": true,
+        "FoodType": "veg"
+    },
+    {
+        "pk_key": 5,
+        "ProductName": "Iced Caramel Coffee",
+        "ProductPrice": "$3.75",
+        "ProductType": "drinks",
+        "ProductImage": "https://example.com/images/coffee.jpg",
+        "ShowInListing": true,
+        "FoodType": "veg"
+    }
+]
