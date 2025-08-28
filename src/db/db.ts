@@ -42,7 +42,7 @@ export class MySubClassedDexie extends Dexie {
   printedBills!: Table<Order> // New table for closed orders
 
   constructor() {
-    super('OllioPosDatabase') // A descriptive name for your database
+    super('OolioPosDatabase') // A descriptive name for your database
     this.version(1).stores({
       ProductListing: 'pk_key, ProductName, ProductType',
       orders: 'seatNo', // Define the 'orders' table with 'seatNo' as the primary key

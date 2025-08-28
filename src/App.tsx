@@ -6,9 +6,11 @@ import { SnackbarProvider } from './context/SnackbarContext'
 const App = () => {
   return (
     <SnackbarProvider>
-      <div style={{ margin: '10px', overflowX: 'hidden' }}>
-        <Dashboard />
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+        </Routes>
+      </Router>
     </SnackbarProvider>
   )
 }

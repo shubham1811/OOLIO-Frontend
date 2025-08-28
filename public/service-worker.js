@@ -5,7 +5,7 @@ importScripts('dexie.js')
 
 // Re-defining the database schema to be accessible in the service worker.
 // This schema must match the one in `src/db/db.ts`.
-const db = new Dexie('OllioPosDatabase')
+const db = new Dexie('OolioPosDatabase')
 db.version(2).stores({
   ProductListing: 'pk_key, ProductName, ProductType',
   orders: 'seatNo', // 'seatNo' is the primary key
